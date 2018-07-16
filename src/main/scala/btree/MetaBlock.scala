@@ -2,7 +2,7 @@ package btree
 
 import scala.reflect.ClassTag
 
-class MetaBlock[T: ClassTag, K: ClassTag, V: ClassTag](override val id: String,
+class MetaBlock[T: ClassTag, K: ClassTag, V: ClassTag](override val id: T,
                                                        override val MIN: Int,
                                                        override val MAX: Int)
   extends Block[T, K, V] {

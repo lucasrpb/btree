@@ -39,7 +39,7 @@ class Index[T:ClassTag, K: ClassTag, V: ClassTag](val DATA_ORDER: Int, val META_
 
   protected def splitMetaBlock(k: K, left: MetaBlock[T, K, V], prev: Block[T, K, V]): Boolean = {
 
-    val right = new MetaBlock[T, K, V](UUID.randomUUID.toString, META_MIN, META_MAX)
+    val right = new MetaBlock[T, K, V](UUID.randomUUID.toString.asInstanceOf[T], META_MIN, META_MAX)
 
     val keys = left.keys
     val pointers = left.pointers
@@ -78,7 +78,7 @@ class Index[T:ClassTag, K: ClassTag, V: ClassTag](val DATA_ORDER: Int, val META_
     left.parent match {
       case None =>
 
-        val block = new MetaBlock[T, K, V](UUID.randomUUID.toString, META_MIN, META_MAX)
+        val block = new MetaBlock[T, K, V](UUID.randomUUID.toString.asInstanceOf[T], META_MIN, META_MAX)
 
         block.keys(0) = k
         block.size += 1
