@@ -16,7 +16,7 @@ class Index[T:ClassTag, K: ClassTag, V: ClassTag](val DATA_ORDER: Int, val META_
   val META_MIDDLE = META_MIN
 
   var root: Option[Block[T, K, V]] = None
-
+  
   protected def find(key: K,
                      start: Option[Block[T, K, V]],
                      parent: Option[MetaBlock[T, K, V]] = None,

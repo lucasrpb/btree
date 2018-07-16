@@ -2,10 +2,9 @@ package btree
 
 import scala.reflect.ClassTag
 
-class DataBlock[T: ClassTag, K: ClassTag, V: ClassTag](val id: T,
+class DataBlock[T: ClassTag, K: ClassTag, V: ClassTag](override val id: T,
                                                        override val MIN: Int,
                                                        override val MAX: Int)
-                                                      /*(implicit val comp: Ordering[K])*/
   extends Block[T, K, V]{
 
   val keys = Array.ofDim[(K, V)](MAX)

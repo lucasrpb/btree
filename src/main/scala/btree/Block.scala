@@ -2,6 +2,8 @@ package btree
 
 trait Block[T, K, V] {
 
+  val id: T
+
   val MIN: Int
   val MAX: Int
 

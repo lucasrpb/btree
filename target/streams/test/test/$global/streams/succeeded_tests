@@ -1,0 +1,8 @@
+#Successful Tests
+#Wed Jul 04 23:49:11 BRT 2018
+btree.RandomDeletionSpec=1530758950890
+btree.DataBlockSpec=1530758612016
+btree.TwoLevelDeletionSpec=1530758612014
+btree.DeletionSpec=1530758612015
+btree.MainSpec=1530758616969
+btree.InsertionSpec=1530758684803
