@@ -723,14 +723,14 @@
 [debug] == resolving dependencies default#btree$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] :: resolution report :: resolve 145ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 72ms :: artifacts dl 9ms
 [debug] 	report for default#btree$sources;0.1 compile produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-compile.xml
 [debug] 	report for default#btree$sources;0.1 runtime produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-runtime.xml
 [debug] 	report for default#btree$sources;0.1 test produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-test.xml
@@ -742,4 +742,4 @@
 [debug] 	report for default#btree$sources;0.1 plugin produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-plugin.xml
 [debug] 	report for default#btree$sources;0.1 pom produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-pom.xml
 [debug] 	report for default#btree$sources;0.1 scala-tool produced in /Users/lucasrpb/IdeaProjects/btree/target/scala-2.12/resolution-cache/reports/default-btree$sources-scala-tool.xml
-[debug] 	resolve done (145ms resolve - 11ms download)
+[debug] 	resolve done (72ms resolve - 9ms download)

@@ -4,7 +4,7 @@
 		module="btree-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180704144229"
+		publication="20180817221759"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
